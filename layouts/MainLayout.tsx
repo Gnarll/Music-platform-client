@@ -1,4 +1,5 @@
 import { NavBar } from "@/components/Navbar";
+import { Player } from "@/components/Player";
 import { Container } from "@mui/material";
 import React from "react";
 
@@ -11,6 +12,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     <>
       <NavBar />
       <Container style={{ margin: "90px 0" }}>{children}</Container>
+      <Player />
     </>
   );
 };
