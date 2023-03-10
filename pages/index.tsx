@@ -2,7 +2,7 @@ import { MainLayout } from "@/layouts/MainLayout";
 import React from "react";
 import styles from "../styles/index.module.css";
 
-const Index = () => {
+const MainPage = () => {
   return (
     <MainLayout>
       <div className={styles.center}>
@@ -13,4 +13,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MainPage;
